@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#011E31">
+    android:background="#011E31"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -22,34 +22,55 @@
             android:src="@drawable/boaleitura" />
 
         <TextView
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Quem Somos:"
+            android:textColor="#FE9A2E"
+            android:textSize="25dp" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Ler é adquirir conhecimento!"
+            android:text="Este projeto é uma iniciativa independente, automatizada e gratuita. Nem por isso é menos importante! Se todos fizerem a sua parte, faremos do Brasil um país melhor.
+
+Cadastre-se gratuitamente e descubra como é fácil trocar um livro.
+
+O objetivo da feira é proporcionar a troca de livros entre as pessoas favorecendo o intercâmbio entre aqueles que possuem livros para disponibilizar e aqueles que precisam de algum livro que necessite e assim participando ajudando a outra pessoa solidariamente."
             android:textColor="#fff"
-            android:textSize="20dp" />
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="By - Guilherme e Márcia"
+            android:textColor="#fff" />
 
         <LinearLayout
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"
-            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
 
             <Button
-                android:textColor="#011E31"
                 android:id="@+id/btnCadastro"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="Cadastro" />
+                android:text="Cadastro"
+                android:textColor="#011E31" />
 
             <Button
-                android:textColor="#011E31"
                 android:id="@+id/btnLogin"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="Login" />
+                android:text="Login"
+                android:textColor="#011E31" />
         </LinearLayout>
 
     </LinearLayout>
